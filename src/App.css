@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "montseratt", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  padding: 25px;
+}
+
+.search-box{
+  width: 100%;
+  margin-bottom: 45px;
+  margin-left: 10%;
+  align-content: center;
+}
+
+.search-bar{
+  display: block;
+  width: 80%;
+  padding: 15px;
+  align-content: center;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(225,225,225,0.5);
+  border-radius: 40px;
+
+  box-shadow: 0px 5px rgba(0,0,0,0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+
+.search-bar:focus{
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.banner-background-01d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/clearSky.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-01n{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/clearNightSky.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-02d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/fewClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-02n{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/fewNightClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-03d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/scatteredClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-03n{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/scatteredNightClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-04d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/brokenClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-04n{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/brokenNightClouds.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-50d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/mist.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-13d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/snow.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-09d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/showerRain.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-10d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/showerRain.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.banner-background-11d{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('./images/thunderStorm.jpg') ;
+  background-size: cover;
+  height: 200px;
+}
+
+.column{
+  color: whitesmoke;
+  float: left;
+  min-height: 100px;
+  min-width: 100px;
+  padding-right: 10px;
+}
+
+.temp{
+  font-size: 60px;
+  text-align: center;
+  padding-top: 18px;
+}
+
+.weather-info{
+  padding-top: 28px;
+}
+
+.location-info{
+  float: right;
+  padding-right: 45px;
+  padding-top: 28px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.location{
+  font-weight: 550;
+}
+
+.forecast{
+  display: flex;
+}
+
+.icon-img-box{
+  color: black;
+  padding-top: 15px;
+  border: 1px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+.buttons{
+  text-align: center;
+}
+
+/* CSS */
+.button {
+  margin-top: 5px;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(209,213,219);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: rgb(249,250,251);
+}
+
+.button:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.button:focus-visible {
+  box-shadow: none;
+}
+  
+.empty-space{
+  
+}
+
+.boop-button{
+  text-align: center;
+}
